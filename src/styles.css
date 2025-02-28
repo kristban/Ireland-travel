@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 1200px;
+  background-color: #004a2f;
+  margin: 0 auto;
+}
+
+header {
+  color: wheat;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/cliffs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+header a {
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 14px;
+  border-style: none;
+  background-color: wheat;
+  display: inline-block;
+  color: #004a2f;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  
+}
+
+footer a {
+  color: #ffa323;
+}
+
+@media (max-width: 900px) {
+    header  {
+        padding: 60px 0;
+    }
+  header h1 {
+    font-size: 50px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+}
