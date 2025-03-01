@@ -2,13 +2,12 @@ body {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-  
+
   background-color: #004a2f;
-  
 }
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 header {
@@ -17,22 +16,29 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/cobh.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 200px 0;
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 74, 47, 0.9), rgba(0, 74, 47, 0.9)),
+  background-image: linear-gradient(rgba(0, 74, 47, 0.7), rgba(0, 74, 47, 0.7)),
     url("/images/city.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0;
+  background-position: center;
+  padding: 50px 20px;
   color: wheat;
+}
+section {
+    max-width: 1400px;
 }
 .footerGrid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  padding: 10px 10px;
 }
+
 h1 {
   font-size: 96px;
   line-height: 1.5;
@@ -65,15 +71,15 @@ footer h3 {
   font-size: 20px;
 }
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 footer li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 footer p {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 footer ul,
 p {
@@ -89,14 +95,14 @@ footer a {
   header {
     padding: 60px 0;
   }
-  header h1 {
+  h1 {
     font-size: 50px;
   }
-  header h3 {
-    font-size: 12px;
-  }
-  header h3 {
+  h2 {
     font-size: 20px;
+  }
+  h3 {
+    font-size: 12px;
   }
   .footerGrid {
     grid-template-columns: 1fr;
