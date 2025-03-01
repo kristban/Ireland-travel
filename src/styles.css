@@ -2,19 +2,36 @@ body {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-  max-width: 1200px;
+  
   background-color: #004a2f;
-  margin: 0 auto;
+  
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 header {
   color: wheat;
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/cliffs.png");
+    url("/images/cobh.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 74, 47, 0.9), rgba(0, 74, 47, 0.9)),
+    url("/images/city.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  color: wheat;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 h1 {
   font-size: 96px;
@@ -43,17 +60,35 @@ header a {
   color: #004a2f;
   letter-spacing: 3px;
   margin-top: 32px;
-  
 }
-
+footer h3 {
+  font-size: 20px;
+}
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer p {
+    margin-right: 20px;
+}
+footer ul,
+p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+}
 footer a {
-  color: #ffa323;
+  color: wheat;
 }
 
 @media (max-width: 900px) {
-    header  {
-        padding: 60px 0;
-    }
+  header {
+    padding: 60px 0;
+  }
   header h1 {
     font-size: 50px;
   }
@@ -62,5 +97,8 @@ footer a {
   }
   header h3 {
     font-size: 20px;
+  }
+  .footerGrid {
+    grid-template-columns: 1fr;
   }
 }
