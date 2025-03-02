@@ -157,8 +157,12 @@ grid-template-columns: 1fr 1fr;
     text-decoration: none;
     text-align: center;
 }
-
-
+.sepia {
+    filter: sepia(80%);
+}
+.grey {
+    filter: grayscale(100%)
+}
 
 
 footer {
