@@ -99,11 +99,12 @@ main p {
 }
 .grid {
   display: grid;
+  grid-gap: 64px
 }
 
 .firstPart {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  
   text-align: left;
   
 }
@@ -113,18 +114,18 @@ main p {
 .secondPart {
     background-color: wheat;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    
 }
 .secondPart, .thirdPart {
     
 }
 .thirdPart {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    
 }
 .footerGrid {
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 64px;
+  
   padding: 50px;
 }
 .card {
