@@ -2,8 +2,31 @@ body {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-
   background-color: #004a2f;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+  
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
 }
 .container {
   max-width: 1400px;
@@ -20,55 +43,6 @@ header {
   background-repeat: no-repeat;
   padding: 200px 0;
 }
-main {
-  background-color: white;
-}
-footer {
-  background-image: linear-gradient(rgba(0, 74, 47, 0.7), rgba(0, 74, 47, 0.7)),
-    url("/images/city.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 50px 20px;
-  color: wheat;
-}
-section {
-  max-width: 1400px;
-}
-
-.grid {
-  display: grid;
-}
-.footerGrid {
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 64px;
-}
-.firstPart {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 100px;
-}
-
-.secondPart {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
-  margin: 0;
-}
-h2 {
-  font-size: 24px;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 40px;
-  font-weight: 400;
-  margin: 0;
-}
-
 header a {
   text-transform: uppercase;
   padding: 20px;
@@ -80,23 +54,111 @@ header a {
   letter-spacing: 3px;
   margin-top: 32px;
 }
+
+section {
+margin: 0 auto;
+padding: 100px;
+}
+
+main {
+  background-color: white;
+  max-width: 1400px;
+}
+main h2 {
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+}
 main h3 {
-  font-size: 24px;
+  font-size: 16px;
   opacity: 0.3;
   text-transform: uppercase;
   line-height: 1.5;
+  text-align: center;
 }
-
-main h2 {
-  font-size: 35px;
-  line-height: 1.5;
+main h4 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1;
+    
+}
+main h5 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    
 }
 main p {
   font-size: 14px;
+  text-align: left;
+}
+.grid {
+  display: grid;
 }
 
-.hill {
-  max-width: 100%;
+.firstPart {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: left;
+  
+}
+.firstPart h2 {
+    font-size: 32px;
+}
+.secondPart {
+    background-color: wheat;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.secondPart, .thirdPart {
+    
+}
+.thirdPart {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.footerGrid {
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
+  padding: 50px;
+}
+.card {
+    background-color: white;
+    margin: 30px 0;
+    
+}
+
+.card-body {
+    padding: 30px;
+}
+.card-footer {
+    padding: 0 30px 30px;
+}
+.btn {
+    background-color: #004a2f;
+    color: white;
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 3px;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+footer {
+  background-image: linear-gradient(rgba(0, 74, 47, 0.7), rgba(0, 74, 47, 0.7)),
+    url("/images/city.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 20px;
+  color: wheat;
 }
 footer h3 {
   font-size: 20px;
